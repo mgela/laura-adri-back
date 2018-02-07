@@ -1,0 +1,17 @@
+{
+  "name": "laura-adri-back",
+  "version": "1.0.0",
+  "description": "for nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12",
+    "postmark": "^1.5.0"
+  }
+}
