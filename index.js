@@ -17,6 +17,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(cors('*'));
 app.use(router);
-app.listen(process.env.PORT || 4000, function(){
+app.listen(process.env.PORT ||  4000, function(){
   console.log('running @4000');
 })
