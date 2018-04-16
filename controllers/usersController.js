@@ -13,7 +13,7 @@ exports.boda = async (req, res) => {
       const msg = {
         to: 'lauraiadri1@gmail.com',
         from: 'rsvp@lauraiadri.com',
-        subject: `${req.body.nom} vindrà amb: ${req.body.nomAcompanyant} i bus: ${req.body.bus}`,
+        subject: `${req.body.nom} vindrà amb: ${req.body.nomAcompanyant} i bus: ${req.body.bus}, alergies: ${req.body.alergies}`,
         html: ' ',
       }
       sgMail.send(msg);
